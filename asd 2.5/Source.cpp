@@ -34,4 +34,5 @@ int main() {
 	search(a, n, s);
 	cout << endl;
 	system("pause");
+	return 0;
 }
