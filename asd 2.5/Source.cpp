@@ -5,7 +5,7 @@ void search(int* arr, int i,int el) {
 	int h = 0;
 	for (int j = 0;j < i;j++) {
 		if (el == arr[j]) {
-			cout << "Item "<<arr[j]<<" found and its number : " << j+1 << endl;
+			cout << "Item "<<arr[j]<<" found and his index : " << j << endl;
 			h++;
 			
 		}
@@ -23,12 +23,11 @@ int main() {
 		x = rand() % 50;
 		a[j] = x;
 	}
-	cout << "Array: ";
+	cout << "Array: "<<endl;
 	for (int j = 0; j < n;j++)
 	{
-		cout << a[j] << " ";
+		cout << "arr[" << j << "]= " << a[j] << endl;
 	}
-	cout << endl;
 	cout << endl;
 	cout << "Enter the number of the item you want to find: " << endl;
 	cin >> s;
